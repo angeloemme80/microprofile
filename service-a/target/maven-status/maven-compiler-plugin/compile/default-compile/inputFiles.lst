@@ -1,8 +1,8 @@
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\openapi\Booking.java
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\secure\MPJWTToken.java
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\secure\TestSecureController.java
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\MicroprofileRestApplication.java
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\config\ConfigTestController.java
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\HelloController.java
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\openapi\Destination.java
-c:\Esperimenti\microprofile\service-a\src\main\java\it\angelomassaro\microprofile\openapi\BookingController.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/openapi/BookingController.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/openapi/Booking.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/openapi/Destination.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/HelloController.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/MicroprofileRestApplication.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/secure/MPJWTToken.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/secure/TestSecureController.java
+/home/angelo/git/microprofile/service-a/src/main/java/it/angelomassaro/microprofile/config/ConfigTestController.java
