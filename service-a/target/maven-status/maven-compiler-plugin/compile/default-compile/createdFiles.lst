@@ -1,8 +1,8 @@
-it\angelomassaro\microprofile\openapi\Destination.class
-it\angelomassaro\microprofile\config\ConfigTestController.class
-it\angelomassaro\microprofile\secure\MPJWTToken.class
-it\angelomassaro\microprofile\HelloController.class
-it\angelomassaro\microprofile\openapi\Booking.class
-it\angelomassaro\microprofile\MicroprofileRestApplication.class
-it\angelomassaro\microprofile\secure\TestSecureController.class
-it\angelomassaro\microprofile\openapi\BookingController.class
+it/angelomassaro/microprofile/openapi/BookingController.class
+it/angelomassaro/microprofile/openapi/Booking.class
+it/angelomassaro/microprofile/openapi/Destination.class
+it/angelomassaro/microprofile/HelloController.class
+it/angelomassaro/microprofile/MicroprofileRestApplication.class
+it/angelomassaro/microprofile/config/ConfigTestController.class
+it/angelomassaro/microprofile/secure/MPJWTToken.class
+it/angelomassaro/microprofile/secure/TestSecureController.class
