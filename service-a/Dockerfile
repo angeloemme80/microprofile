@@ -1,5 +1,4 @@
-#FROM openjdk:8-jdk
-FROM java:8
+FROM openjdk:8-jdk
 ADD target/microprofile.jar microprofile.jar
 EXPOSE 9080
 USER 1001
