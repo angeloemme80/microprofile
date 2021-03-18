@@ -1,0 +1,131 @@
+********************************************************************************
+product = Open Liberty 21.0.0.2 (wlp-1.0.49.cl210220210209-1100)
+wlp.install.dir = C:/Esperimenti/microprofile/service-b/target/liberty/wlp/
+java.home = C:\Oracle\Middleware12.2.1.3\oracle_common\jdk\jre
+java.version = 1.8.0_131
+java.runtime = Java(TM) SE Runtime Environment (1.8.0_131-b11)
+os = Windows 10 (10.0; amd64) (it_IT)
+process = 9948@LAPTOP-HOOMLNRG
+********************************************************************************
+[09/03/21 11.33.57:335 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0001I: Il server microprofile è stato avviato.
+[09/03/21 11.33.58:584 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: Kernel avviato dopo 1,451 secondi
+[09/03/21 11.33.58:627 CET] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Aggiornamento funzioni avviato.
+[09/03/21 11.33.58:806 CET] 00000017 .apache.cxf.cxf.core.3.2:1.0.49.cl210220210209-1100(id=148)] I Aries Blueprint packages not available. So namespaces will not be registered
+[09/03/21 11.33.58:808 CET] 0000001a .apache.cxf.cxf.core.3.2:1.0.49.cl210220210209-1100(id=148)] I Aries Blueprint packages not available. So namespaces will not be registered
+[09/03/21 11.33.58:843 CET] 00000016 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: Il servizio di sicurezza è in fase di avvio...
+[09/03/21 11.33.59:020 CET] 0000001a .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5775I: Microprofilo JWT versione 1.1 mpConfigProxy elaborato correttamente.
+[09/03/21 11.33.59:031 CET] 00000018 com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoraggio di dropins per rilevare eventuali applicazioni.
+[09/03/21 11.33.59:062 CET] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1001I: L'istanza della cache dinamica WebSphere denominata baseCache è stata inizializzata correttamente.
+[09/03/21 11.33.59:065 CET] 00000017 com.ibm.ws.cache.ServerCache                                 I DYNA1071I: Si sta utilizzando il provider della cache default.
+[09/03/21 11.33.59:066 CET] 00000017 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La cache dinamica (cache degli oggetti) è stata inizializzata correttamente.
+[09/03/21 11.33.59:334 CET] 00000016 ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1123I: Il plug-in di autenticazione collective con il nome classe NullCollectiveAuthenticationPlugin è stato attivato. 
+[09/03/21 11.34.00:287 CET] 0000002c com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreateTask    I CWWKS4105I: La configurazione LTPA è pronta dopo 0,984 secondi.
+[09/03/21 11.34.00:418 CET] 0000001e com.ibm.ws.ssl.config.WSKeyStore                             I Successfully loaded default keystore: C:/Esperimenti/microprofile/service-b/target/liberty/wlp/usr/servers/microprofile/resources/security/public.jks of type: JKS
+[09/03/21 11.34.00:448 CET] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5500I: La configurazione JWT del microprofilo [MicroProfileJwtService] è stata elaborata correttamente.
+[09/03/21 11.34.00:449 CET] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: La configurazione JWT del microprofilo [defaultMpJwt] è stata elaborata correttamente.
+[09/03/21 11.34.00:450 CET] 0000001e com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5500I: La configurazione JWT del microprofilo [jwtUserConsumer] è stata elaborata correttamente.
+[09/03/21 11.34.00:648 CET] 00000016 com.ibm.ws.session.WASSessionCore                            I SESN8501I: Il gestore sessioni non ha trovato una ubicazione di storage persistente; gli oggetti HttpSession sono memorizzati nella memoria del server delle applicazioni locale.
+[09/03/21 11.34.00:681 CET] 00000016 om.ibm.ws.microprofile.metrics.monitor.MonitorMetricsHandler I CWPMI2003I: Le metriche di monitoraggio possono essere richiamate tramite mpMetrics.
+[09/03/21 11.34.00:752 CET] 00000016 com.ibm.ws.security.jwt.internal.ConsumerImpl                I CWWKS6012I: Il servizio consumer JWT (JSON Web Token) è disponibile.
+[09/03/21 11.34.00:766 CET] 00000016 com.ibm.ws.security.jwt.web.JwtEndpointServices              I CWWKS6002I: Il servizio endpoint JWT (JSON Web Token) è disponibile.
+[09/03/21 11.34.01:057 CET] 00000026 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Avvio dell'applicazione microprofile.
+[09/03/21 11.34.01:058 CET] 00000026 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'applicazione microprofile sta utilizzando la definizione applicazione debole all'ubicazione C:\Esperimenti\microprofile\service-b\target\liberty\wlp\usr\servers\microprofile\apps\microprofile.war.xml.
+[09/03/21 11.34.01:445 CET] 00000040 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: MicroProfileOpenAPI.
+[09/03/21 11.34.01:445 CET] 0000003f com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: PublicMicroProfileMetrics.
+[09/03/21 11.34.01:445 CET] 00000041 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: OpenAPIUI.
+[09/03/21 11.34.01:445 CET] 00000025 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: ibm/api.
+[09/03/21 11.34.01:445 CET] 00000024 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: com.ibm.ws.security.jwt.
+[09/03/21 11.34.01:445 CET] 00000042 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: health.
+[09/03/21 11.34.01:452 CET] 00000024 com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web com.ibm.ws.security.jwt è stato collegato a default_host.
+[09/03/21 11.34.01:452 CET] 00000042 com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web health è stato collegato a default_host.
+[09/03/21 11.34.01:452 CET] 00000041 com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web OpenAPIUI è stato collegato a default_host.
+[09/03/21 11.34.01:452 CET] 00000040 com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web MicroProfileOpenAPI è stato collegato a default_host.
+[09/03/21 11.34.01:452 CET] 0000003f com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web PublicMicroProfileMetrics è stato collegato a default_host.
+[09/03/21 11.34.01:452 CET] 00000025 com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web ibm/api è stato collegato a default_host.
+[09/03/21 11.34.01:453 CET] 00000024 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/jwt/
+[09/03/21 11.34.01:456 CET] 00000025 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/ibm/api/
+[09/03/21 11.34.01:456 CET] 0000003f com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/metrics/
+[09/03/21 11.34.01:456 CET] 00000040 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/openapi/
+[09/03/21 11.34.01:457 CET] 00000041 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/openapi/ui/
+[09/03/21 11.34.01:457 CET] 00000042 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/health/
+[09/03/21 11.34.01:743 CET] 0000002c com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/metrics
+[09/03/21 11.34.01:743 CET] 00000038 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/jwt
+[09/03/21 11.34.01:743 CET] 0000003b com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/openapi
+[09/03/21 11.34.01:743 CET] 00000034 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/openapi/ui
+[09/03/21 11.34.01:743 CET] 00000035 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/ibm/api
+[09/03/21 11.34.01:743 CET] 00000037 com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/health
+[09/03/21 11.34.01:781 CET] 0000002c com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.01:791 CET] 00000037 com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.01:792 CET] 00000035 com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.01:792 CET] 00000034 com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.01:792 CET] 0000003b com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.01:792 CET] 00000038 com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.01:812 CET] 00000034 com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: La cache dinamica (cache degli oggetti) è stata inizializzata correttamente.
+[09/03/21 11.34.01:954 CET] 0000002c com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.metrics.public] [/metrics] [PublicMetricsRESTProxyServlet]: Inizializzazione riuscita.
+[09/03/21 11.34.01:957 CET] 0000003b com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Inizializzazione riuscita.
+[09/03/21 11.34.01:962 CET] 00000037 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckReadinessServlet]: Inizializzazione riuscita.
+[09/03/21 11.34.01:963 CET] 00000037 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckServlet]: Inizializzazione riuscita.
+[09/03/21 11.34.01:964 CET] 00000037 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckLivenessServlet]: Inizializzazione riuscita.
+[09/03/21 11.34.02:001 CET] 0000003c com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: È stato generato automaticamente un file di configurazione per un plugin server web per questo server in C:\Esperimenti\microprofile\service-b\target\liberty\wlp\usr\servers\microprofile\logs\state\plugin-cfg.xml.
+[09/03/21 11.34.02:274 CET] 00000026 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: L'applicazione microprofile è stata elaborata ed è stato prodotto un documento OpenAPI.
+[09/03/21 11.34.02:302 CET] 00000026 org.jboss.weld.Version                                       I WELD-000900: 3.1.4 (Final)
+[09/03/21 11.34.03:459 CET] 00000026 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: Le seguenti interfacce sono configurate come RequestScoped, il che risulterà in un calo delle prestazioni:  Considerare l'utilizzo di ApplicationScoped per prestazioni migliori.
+[09/03/21 11.34.03:507 CET] 00000026 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: microprofile.
+[09/03/21 11.34.03:507 CET] 00000026 com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web microprofile è stato collegato a default_host.
+[09/03/21 11.34.03:507 CET] 00000026 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/
+[09/03/21 11.34.03:509 CET] 0000003d com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/
+[09/03/21 11.34.03:510 CET] 0000003d com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.03:542 CET] 0000003d com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0001I: Applicazione microprofile avviata in 2,485 secondi.
+[09/03/21 11.34.03:544 CET] 00000030 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: È stato generato automaticamente un file di configurazione per un plugin server web per questo server in C:\Esperimenti\microprofile\service-b\target\liberty\wlp\usr\servers\microprofile\logs\state\plugin-cfg.xml.
+[09/03/21 11.34.03:560 CET] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Il canale TCP defaultHttpEndpoint è stato avviato ed ora è in ascolto delle richieste sull'host kubernetes.docker.internal  (IPv4: 127.0.0.1) porta 9081.
+[09/03/21 11.34.03:562 CET] 00000022 com.ibm.ws.tcpchannel.internal.TCPPort                       I CWWKO0219I: Il canale TCP defaultHttpEndpoint-ssl è stato avviato ed ora è in ascolto delle richieste sull'host kubernetes.docker.internal  (IPv4: 127.0.0.1) porta 9444.
+[09/03/21 11.34.03:575 CET] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0012I: Il server ha installato le seguenti funzioni: [appSecurity-2.0, cdi-2.0, concurrent-1.0, distributedMap-1.0, jaxrs-2.1, jaxrsClient-2.1, jndi-1.0, json-1.0, jsonb-1.0, jsonp-1.1, jwt-1.0, microProfile-3.3, monitor-1.0, mpConfig-1.4, mpFaultTolerance-2.1, mpHealth-2.2, mpJwt-1.1, mpMetrics-2.3, mpOpenAPI-1.1, mpOpenTracing-1.3, mpRestClient-1.4, opentracing-1.3, servlet-4.0, ssl-1.0].
+[09/03/21 11.34.03:575 CET] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0008I: Aggiornamento funzioni completato in 4,991 secondi.
+[09/03/21 11.34.03:575 CET] 00000022 com.ibm.ws.kernel.feature.internal.FeatureManager            A CWWKF0011I: Il server microprofile è pronto per "un pianeta più intelligente". Server microprofile avviato in 6,444 secondi.
+[09/03/21 11.34.06:378 CET] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/
+[09/03/21 11.34.06:404 CET] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Applicazione microprofile arrestata correttamente.
+[09/03/21 11.34.06:409 CET] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Avvio dell'applicazione microprofile.
+[09/03/21 11.34.06:410 CET] 00000022 bm.ws.app.manager.war.internal.WARDeployedAppInfoFactoryImpl I CWWKZ0134I: L'applicazione microprofile sta utilizzando la definizione applicazione debole all'ubicazione C:\Esperimenti\microprofile\service-b\target\liberty\wlp\usr\servers\microprofile\apps\microprofile.war.xml.
+[09/03/21 11.34.06:432 CET] 00000035 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: È stato generato automaticamente un file di configurazione per un plugin server web per questo server in C:\Esperimenti\microprofile\service-b\target\liberty\wlp\usr\servers\microprofile\logs\state\plugin-cfg.xml.
+[09/03/21 11.34.06:616 CET] 00000022 com.ibm.ws.microprofile.openapi.ApplicationProcessor         I CWWKO1660I: L'applicazione microprofile è stata elaborata ed è stato prodotto un documento OpenAPI.
+[09/03/21 11.34.06:938 CET] 00000022 m.ws.microprofile.rest.client.cdi.LibertyRestClientExtension I CWWKW0750I: Le seguenti interfacce sono configurate come RequestScoped, il che risulterà in un calo delle prestazioni:  Considerare l'utilizzo di ApplicationScoped per prestazioni migliori.
+[09/03/21 11.34.06:949 CET] 00000022 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: caricamento del modulo web in corso: microprofile.
+[09/03/21 11.34.06:949 CET] 00000022 com.ibm.ws.webcontainer                                      I SRVE0250I: Il modulo Web microprofile è stato collegato a default_host.
+[09/03/21 11.34.06:949 CET] 00000022 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0016I: Applicazione Web disponibile (default_host): http://localhost:9081/
+[09/03/21 11.34.06:951 CET] 0000002e com.ibm.ws.session.WASSessionCore                            I SESN0176I: Verrà creato un nuovo contesto di sessione per la chiave dell'applicazione default_host/
+[09/03/21 11.34.06:951 CET] 0000002e com.ibm.ws.util                                              I SESN0172I: Il gestore sessione utilizza l'implementazione SecureRandom predefinita Java per la generazione dell'ID sessione.
+[09/03/21 11.34.06:966 CET] 0000002e com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0003I: L'applicazione microprofile è stata aggiornata in 0,557 secondi.
+[09/03/21 11.34.06:981 CET] 00000037 com.ibm.ws.webcontainer.osgi.mbeans.PluginGenerator          I SRVE9103I: È stato generato automaticamente un file di configurazione per un plugin server web per questo server in C:\Esperimenti\microprofile\service-b\target\liberty\wlp\usr\servers\microprofile\logs\state\plugin-cfg.xml.
+[09/03/21 11.34.29:949 CET] 00000026 .apache.cxf.cxf.core.3.2:1.0.49.cl210220210209-1100(id=148)] I Setting the server's publish address to be /data/
+[09/03/21 11.34.30:021 CET] 00000026 com.ibm.ws.webcontainer.servlet                              I SRVE0242I: [microprofile] [/] [it.angelomassaro.microprofile.MicroprofileRestApplication]: Inizializzazione riuscita.
+[09/03/21 11.34.30:298 CET] 00000026 io.jaegertracing.Configuration                               I Initialized tracer=JaegerTracer(version=Java-0.34.0, serviceName=microprofile, reporter=RemoteReporter(sender=UdpSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=LAPTOP-HOOMLNRG, jaeger.version=Java-0.34.0, ip=10.150.181.197}, zipkinSharedRpcSpan=false, expandExceptionLogs=false, useTraceId128Bit=false)
+[09/03/21 11.34.30:299 CET] 00000026 m.ibm.ws.microprofile.opentracing.jaeger.JaegerTracerFactory I CWMOT1001I: È stata creata unistanza JaegerTracer per lapplicazione microprofile.  Le informazioni di traccia sono state inviate a localhost:6831.
+[09/03/21 11.34.30:355 CET] 00000026 com.ibm.ws.security.mp.jwt.principal.PrincipalBean           E CWWKS5604E: Un principal JsonWebToken non può essere inserito perché uno non è disponibile. Proteggere la risorsa richiedente in modo che l'autenticazione si verifichi prima che si acceda alla risorsa.
+[09/03/21 11.34.30:359 CET] 00000026 com.ibm.ws.security.mp.jwt.principal.PrincipalBean           E CWWKS5604E: Un principal JsonWebToken non può essere inserito perché uno non è disponibile. Proteggere la risorsa richiedente in modo che l'autenticazione si verifichi prima che si acceda alla risorsa.
+[09/03/21 11.34.37:481 CET] 00000013 com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Arresto del server richiesto il martedì 9 marzo 2021 alle 11.34. Il server microprofile è in fase di arresto.
+[09/03/21 11.34.37:484 CET] 0000006d com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  A CWWKE1100I: Si attenderanno 30 secondi perché il server passi in stato quiesce.
+[09/03/21 11.34.37:489 CET] 0000003c com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Il canale TCP defaultHttpEndpoint-ssl non è più in ascolto delle richieste sull'host kubernetes.docker.internal  (IPv4: 127.0.0.1) porta 9444.
+[09/03/21 11.34.37:491 CET] 0000003c com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: Il canale TCP defaultHttpEndpoint non è più in ascolto delle richieste sull'host kubernetes.docker.internal  (IPv4: 127.0.0.1) porta 9081.
+[09/03/21 11.34.37:491 CET] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/jwt/
+[09/03/21 11.34.37:492 CET] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/openapi/ui/
+[09/03/21 11.34.37:492 CET] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/metrics/
+[09/03/21 11.34.37:492 CET] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/health/
+[09/03/21 11.34.37:492 CET] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/
+[09/03/21 11.34.37:492 CET] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/ibm/api/
+[09/03/21 11.34.37:492 CET] 0000003c com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Applicazione Web rimossa (default_host): http://localhost:9081/openapi/
+[09/03/21 11.34.38:496 CET] 0000006d com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Esecuzione del quiesce del server completata.
+[09/03/21 11.34.38:530 CET] 00000022 com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [microprofile] [/] [it.angelomassaro.microprofile.MicroprofileRestApplication]: Destroy riuscito.
+[09/03/21 11.34.38:536 CET] 00000022 com.ibm.ws.app.manager.AppMessageHelper                      A CWWKZ0009I: Applicazione microprofile arrestata correttamente.
+[09/03/21 11.34.38:548 CET] 0000006d com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.metrics.public] [/metrics] [PublicMetricsRESTProxyServlet]: Destroy riuscito.
+[09/03/21 11.34.38:552 CET] 0000006d com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckReadinessServlet]: Destroy riuscito.
+[09/03/21 11.34.38:552 CET] 0000006d com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckLivenessServlet]: Destroy riuscito.
+[09/03/21 11.34.38:553 CET] 0000006d com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.health.2.0] [/health] [HealthCheckServlet]: Destroy riuscito.
+[09/03/21 11.34.38:558 CET] 0000006d com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.microprofile.openapi] [/openapi] [OpenAPIServlet]: Destroy riuscito.
+[09/03/21 11.34.38:666 CET] 0000006d .ws.security.mp.jwt.v11.config.impl.MpConfigProxyServiceImpl I CWWKS5777I: Microprofilo JWT versione 1.1 mpConfigProxy disattivato correttamente.
+[09/03/21 11.34.38:667 CET] 0000006d com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: La configurazione JWT del microprofilo [defaultMpJwt] è stata disattivata correttamente.
+[09/03/21 11.34.38:668 CET] 0000006d com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtConfigImpl    I CWWKS5502I: La configurazione JWT del microprofilo [jwtUserConsumer] è stata disattivata correttamente.
+[09/03/21 11.34.38:668 CET] 0000006d com.ibm.ws.security.mp.jwt.impl.MicroProfileJwtServiceImpl   I CWWKS5502I: La configurazione JWT del microprofilo [MicroProfileJwtService] è stata disattivata correttamente.
+[09/03/21 11.34.38:719 CET] 0000006d om.ibm.ws.microprofile.metrics.monitor.MonitorMetricsHandler I CWPMI2004I: Tutte le metriche di monitoraggio sono state deregistrate da mpMetrics.
+[09/03/21 11.34.38:801 CET] 0000006d com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: Il servizio di sicurezza è stato arrestato.
+[09/03/21 11.34.38:821 CET] 0000006d ibm.ws.security.authentication.internal.jaas.JAASServiceImpl I CWWKS1124I: Il plug-in di autenticazione collective con il nome classe NullCollectiveAuthenticationPlugin è stato disattivato. 
+[09/03/21 11.34.39:155 CET] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: Il server microprofile è stato arrestato dopo 42,023 secondi.

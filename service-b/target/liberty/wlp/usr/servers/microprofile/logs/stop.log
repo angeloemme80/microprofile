@@ -1,0 +1,13 @@
+
+arg0=--batch-file=--stop
+arg1=stop
+arg2=microprofile
+exit=1
+
+                 Java home:  C:\Oracle\Middleware12.2.1.3\oracle_common\jdk\jre
+              Install root:  C:/Esperimenti/microprofile/service-b/target/liberty/wlp/
+          System libraries:  C:/Esperimenti/microprofile/service-b/target/liberty/wlp/lib/
+                 User root:  C:/Esperimenti/microprofile/service-b/target/liberty/wlp/usr/
+                    Config:  C:/Esperimenti/microprofile/service-b/target/liberty/wlp/usr/servers/microprofile/
+                    Output:  C:/Esperimenti/microprofile/service-b/target/liberty/wlp/usr/servers/microprofile/
+
